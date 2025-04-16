@@ -1,0 +1,16 @@
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app  fullstack-backend:latest npm i nodemon
+
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app -p 127.0.0.1:3000:3000 -h 0.0.0.0  fullstack-nodebackend:latest npm start
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app  fullstack-nodebackend:latest npm i nodemon -D
+
+  docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app  fullstack-backend:latest npm i express mongoose jsonwebtoken bcrypt dotenv --save
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npx create-react-app .
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npm i react-router-dom react-icons styled-components
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npm install -D tailwindcss
+
+  docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npx tailwindcss init
