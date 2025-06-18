@@ -1,4 +1,4 @@
-name: Frontend CI/CD
+name: Saurabh’s Frontend Deployment
 
 on:
   push:
