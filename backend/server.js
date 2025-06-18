@@ -4,16 +4,16 @@ const connectDB = require('./config/db');
 const productRoutes = require('./routes/productRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
-dotenv.config();
-connectDB();
+dotenv.config();       // Load .env variables
+connectDB();           // Connect to MongoDB
 
 const app = express();
-app.use(express.json());
-
-// Routes
+app.use(express.json());  // Parse incoming JSON
+ 
+// Define routes
 app.use('/api/products', productRoutes);
 
-// Error Handlers
+// Handle 404 and errors
 app.use(notFound);
 app.use(errorHandler);
 
