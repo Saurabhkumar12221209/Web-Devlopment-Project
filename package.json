@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "homepage": "https://kishlay568.github.io/EyeShop---Eye-Glasses-E-Commerce-App/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@ffmpeg/core": "^0.9.0",
+    "@ffmpeg/ffmpeg": "^0.9.8",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
+    "@react-pdf/renderer": "^3.1.14",
+    "axios": "^1.6.2",
+    "coi-serviceworker": "^0.1.7",
+    "file-saver": "^2.0.5",
+    "razorpay": "^2.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-razorpay": "^2.0.1",
+    "react-router-dom": "^6.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.10"
+  }
+}
