@@ -18,6 +18,6 @@
 1. Clone this repository.
 2. Install dependencies using **npm install**.
 3. Start the server using **npm start**.
-4. Open your browser and navigate to web-devlopment-project.netlify.app (replace port with the port number configured in your environment).
+4. Open your browser and navigate to https://web-devlopment-project.netlify.app (replace port with the port number configured in your environment).
 
 
